@@ -1,0 +1,206 @@
+{
+  "site": {
+    "version": 0.1,
+    "name": "DusMinute",
+    "domain": "dusminute.com",
+
+    "emails": {
+      "support": {
+        "name": "DusMinute Support",
+        "email": "support@dusminute.com"
+      }
+    }
+  },
+
+  "endpoint": {
+    "url": "/",
+    "upload": "/upload",
+    "multipleUpload": "/multiple-uploads"
+  },
+
+  "common": {
+    "language": {
+      "default": "en-US"
+    },
+    "folder": {
+      "uploads": "uploads",
+      "multipleUpload": "multiple-uploads"
+    },
+
+    "pagination": {
+      "default": 20
+    },
+
+    "date": {
+      "format": {
+        "full": "YYYY-MM-DD, hh:mm a",
+        "date": "YYYY-MM-DD",
+        "time": "HH:mm",
+        "nice": {
+          "date": "Do MMM",
+          "time": "h:mm A"
+        }
+      }
+    }
+  },
+
+  "log": {
+    "service": "api",
+    "types": {
+      "error": "error",
+      "warning": "warning",
+      "info": "info"
+    }
+  },
+
+  "user": {
+    "roles": {
+      "admin": {
+        "key": "admin",
+        "title": "Admin"
+      },
+      "vendor": {
+        "key": "vendor",
+        "title": "Vendor"
+      },
+      "finance": {
+        "key": "finance",
+        "title": "Finance"
+      },
+      "user": {
+        "key": "user",
+        "title": "User"
+      }
+    },
+
+    "rules": {
+      "nameMinLength": 3,
+      "passwordMinLength": 6,
+      "otpLength": 4
+    },
+
+    "image": {
+      "folder": "/images/user",
+      "default": "default.jpg",
+      "width": 300,
+      "height": 300
+    }
+  },
+
+  "category": {
+    "image": {
+      "folder": "/images/category",
+      "default": "default.jpg",
+      "width": 300,
+      "height": 300
+    },
+    "featured": {
+      "limit": 15
+    }
+  },
+
+  "product": {
+    "image": {
+      "folder": "/images/product",
+      "default": "default.jpg",
+      "width": 300,
+      "height": 300
+    },
+
+    "featured": {
+      "limit": 15
+    },
+
+    "recent": {
+      "limit": 15
+    },
+
+    "popular": {
+      "limit": 15
+    }
+  },
+
+  "community": {
+    "image": {
+      "folder": "/images/community",
+      "default": "default.jpg",
+      "width": 300,
+      "height": 300
+    }
+  },
+
+  "order": {
+    "frequency": {
+      "daily": "daily",
+      "days": "days"
+    },
+    "types": {
+      "oneTime": {
+        "key": "oneTime",
+        "title": "One time",
+        "discount": "5"
+      },
+      "subscription": {
+        "key": "subscription",
+        "title": "Subscription",
+        "discount": "10"
+      },
+      "prepaidSubscription": {
+        "key": "prepaidSubscription",
+        "title": "Prepaid subscription",
+        "discount": "20"
+      }
+    }
+  },
+
+  "payment": {
+    "types": {
+      "cod": "cod",
+      "online": "online",
+      "wallet": "wallet",
+      "simpl": "simpl"
+    },
+
+    "status": {
+      "pending": "pending",
+      "done": "done",
+      "cancelled": "cancelled"
+    },
+
+    "gateway": {
+      "status": {
+        "done": "authorized"
+      }
+    }
+  },
+
+  "wallet": {
+    "recharge": {
+      "minimumAmount": 1
+    },
+    "transaction": {
+      "debit": "debit",
+      "credit": "credit"
+    },
+    "summary": {
+      "limit": 10
+    }
+  },
+
+  "banner": {
+    "image": {
+      "folder": "/images/banner",
+      "default": "default.jpg",
+      "width": 600,
+      "height": 375
+    }
+  },
+
+  "kyc": {
+    "image": {
+      "folder": "/images/kyc",
+      "default": "default.jpg",
+      "width": 600
+    }
+  }
+}

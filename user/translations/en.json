@@ -1,0 +1,106 @@
+{
+  "fields": {
+    "name": {
+      "messages": {
+        "lengthMin": "Name needs to be atleast {{length}} characters."
+      }
+    },
+    "email": {
+      "messages": {
+        "invalid": "The email you entered is invalid."
+      }
+    },
+    "password": {
+      "messages": {
+        "lengthMin": "Password needs to be atleast {{length}} characters.",
+        "equal": "Passwords do not match."
+      }
+    },
+    "otp": {
+      "messages": {
+        "length": "OTP needs to be {{length}} digits long."
+      }
+    }
+  },
+
+  "publish": {
+    "messages": {
+      "error": "Invalid {{user}}.",
+      "published": "{{user}} has been published successfully.",
+      "unpublished": "{{user}} has been unpublished successfully."
+    }
+  },
+
+  "remove": {
+    "messages": {
+      "error": "Invalid {{user}}.",
+      "removed": "{{user}} has been removed successfully."
+    }
+  },
+
+  "signup": {
+    "messages": {
+      "otp": "Please enter OTP sent to your mobile number.",
+      "registered": "You have been registered successfully.",
+      "exists": "This email is already registered. Please login.",
+      "existsMobile": "This mobile is already registered. Please login.",
+      "errorOtp": "The OTP you entered is invalid. Please try again."
+    },
+
+    "email": {
+      "subject": "Welcome!",
+      "message": "You have signed up successfully. Welcome to {{site}}."
+    }
+  },
+
+  "signupVendor": {
+    "messages": {
+      "registered": "Application to become vendor is registered successfuly. We'll contact you on your mobile number soon.",
+      "exists": "Vendor with this email is already registered. Please login."
+    }
+  },
+
+  "login": {
+    "messages": {
+      "success": "You have been logged in successfully.",
+
+      "error": {
+        "wrongUser": "We do not have any registered user with this email address.",
+        "wrongCredentials": "Email or password is incorrect."
+      }
+    }
+  },
+
+  "forgotPassword": {
+    "messages": {
+      "emailSent": "OTP has been sent to {{email}}. Please check your email's 'inbox' and 'spam' folders.",
+      "otpVerified": "OTP verified successfully. Please create new password.",
+      "resetDone": "Password has been reset successfully. Please login with your new password.",
+
+      "error": {
+        "invalidUser": "Sorry, we do not have any user with this email address.",
+        "invalidOtp": "You have entered an invalid OTP. Please try again.",
+        "invalidInfo": "You have entered an invalid information. Please try again."
+      }
+    },
+
+    "email": {
+      "subject": "Forgot Password OTP {{otp}}",
+      "message": "You have signed up successfully. Welcome to {{site}}."
+    }
+  },
+
+  "profile": {
+    "messages": {
+      "success": "Profile has been updated successfully."
+    }
+  },
+
+  "customer": {
+    "messages": {
+      "error": {
+        "registerFailed": "Unable to register customer with payment gateway."
+      }
+    }
+  }
+}

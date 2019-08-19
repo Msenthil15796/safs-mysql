@@ -1,0 +1,39 @@
+{
+  "checkout": {
+    "messages": {
+      "saved": "Order has been created successfully.",
+      "placed": "Order has been placed successfully.",
+      "paymentFailed": "Payment failed. Please try again."
+    }
+  },
+
+  "deliver": {
+    "messages": {
+      "error": "Invalid order.",
+      "delivered": "Order has been marked as delivered successfully.",
+      "undelivered": "Order has been marked as undelivered successfully."
+    }
+  },
+
+  "paid": {
+    "messages": {
+      "error": "Invalid order.",
+      "paid": "Order has been marked as paid successfully.",
+      "unpaid": "Order has been marked as unpaid successfully."
+    }
+  },
+
+  "remove": {
+    "messages": {
+      "error": "Invalid order.",
+      "removed": "Order has been removed successfully."
+    }
+  },
+
+  "cancel": {
+    "messages": {
+      "error": "Invalid order.",
+      "cancelled": "Order has been cancelled successfully."
+    }
+  }
+}
